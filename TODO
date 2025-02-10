@@ -1,0 +1,10 @@
+TO be able to crawl:
+comment aid/pid commenting
+artist view (GET http://testphp.vulnweb.com/listproducts.php 'artist' error SQLi vulnerable)
+GET http://testphp.vulnweb.com/Mod_Rewrite_Shop/details.php 'id' SQLi vulnerable
+(buy link), when refreshed the product link it gives 404-->the buy link is notfollowed
+Add to cart button
+
+
+Features:
+multi-threading with pool of workers
