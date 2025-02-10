@@ -219,7 +219,4 @@ AlgoCrawl is licensed under the MIT License. See the [LICENSE](LICENSE) file for
 
 Happy Crawling!
 ```
-
----
-
-Feel free to adjust any sections to better match your project’s specifics or evolving requirements. This `README.md` offers a structured overview that includes core concepts, current progress, future plans, and contribution guidelines—all key elements for a successful GitHub project page.
+.
