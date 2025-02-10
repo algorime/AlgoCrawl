@@ -1,0 +1,33 @@
+{
+  "startUrl": "http://testphp.vulnweb.com/",
+  "allowedDomains": ["testphp.vulnweb.com"],
+  
+  "maxDepth": 5,
+  "maxPagesPerDomain": 10000,
+  
+  "headless": false,
+  "timeout": 30000,
+  
+  "frameworkTimeout": 2000,
+  "retryDelay": 100,
+  "networkIdleTime": 300,
+  
+  "ignoreHashFragments": false,
+  "ignoreQueryParams": false,
+  "respectRobotsTxt": false,
+  
+  "requestDelay": 1000,
+  "maxConcurrentRequests": 5,
+  
+  "outputDir": "./crawler_output",
+  "saveScreenshots": true,
+  "logLevel": "info",
+
+  "interactWithForms": true,
+  "interactWithElements": true,
+  
+  "proxy": {
+    "server": "http://127.0.0.1:8080",
+    "ignoreHTTPSErrors": true
+  }
+} 
