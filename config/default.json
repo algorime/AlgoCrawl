@@ -1,0 +1,33 @@
+{
+  "startUrl": "",
+  "allowedDomains": [""],
+  
+  "maxDepth": 7,
+  "maxPagesPerDomain": 10000,
+  
+  "headless": false,
+  "timeout": 3000,
+  
+  "frameworkTimeout": 3000,
+  "retryDelay": 100,
+  "networkIdleTime": 500,
+  
+  "ignoreHashFragments": false,
+  "ignoreQueryParams": false,
+  "respectRobotsTxt": false,
+  
+  "requestDelay": 1000,
+  "maxConcurrentRequests": 5,
+  
+  "outputDir": "./crawler_output",
+  "saveScreenshots": true,
+  "logLevel": "info",
+
+  "interactWithForms": true,
+  "interactWithElements": true,
+  
+  "proxy": {
+    "server": "http://127.0.0.1:8080",
+    "ignoreHTTPSErrors": true
+  }
+} 
